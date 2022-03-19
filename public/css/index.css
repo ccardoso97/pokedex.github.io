@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+div.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: #333333;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 3px 1px gold;
+    padding: 50px;
+}
+div.card-container:hover{
+    transform: scale(1.2);
+    background-color: black;
+}
+div.header-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
