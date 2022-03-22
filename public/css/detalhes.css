@@ -45,8 +45,8 @@ div.card-container{
     border-radius: 10px;
     color:#333333;
     background-color: #cc2121;
-    width: 120px;
-    height: 200px;
+    width: 220px;
+    height: 300px;
     box-shadow: 5px 5px 3px 1px #d64444;
     padding: 50px;
 }
@@ -59,13 +59,14 @@ div.header-card{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    font-size: 25px;
 }
 div.card-name{
     display: flex;
     color: white;
-    font-size: 20px;
+    font-size: 35px;
     align-items: center;
-    width: 110px;
+    width: 220px;
     border-radius: 5px;
     justify-content: center;
     background-color: #9BCC50;
@@ -77,20 +78,21 @@ div.main-card{
     align-items: center;
 }
 img.card-img{
-    width: 120px;
+    width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 div.footer-card{
     margin-top: 20px;
+    font-size: 25px;
 }
 div.data-card{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items:inherit;
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a{
