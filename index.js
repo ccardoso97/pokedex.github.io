@@ -4099,7 +4099,6 @@ const pokedexObj = {
     }]
   }
 const pokedex = pokedexObj.pokemon
-
 app.get('/', (req, res) => {
     res.render('index.ejs', {
         pokedex
